@@ -1,0 +1,56 @@
+STUCCO:(search and testing for understandable consistent contrasts)
+Contrast set-mining    sales|Ph.D sales|Bachelor
+
+We propose a novel group difference detection algorithm named DIFF that uses the prefix-tree structure to compress the search space,
+follows a tree traversal procedure to discover the complete set of group differences, and employs efficient
+pruning strategies to expedite the search process.
+
+DIFF superior ot STUCCO
+
+decision-tree building process often follows a greedy rule
+
+the compo-
+nents (or items) of a contrast set can be feature-
+value pairs (e.g., age > 45, income = high) and simple
+items/products (e.g., long-term service plan, history
+book). 
+
+
+1.Contrast Set Mining
+2.Emerging Pattern Discovery
+others:Decision-tree induction, association rule mining
+
+The main difference between emerging patterns
+and contrast sets is that contrast sets measure an ab-
+solute difference, and emerging patterns measure a
+relative difference (i.e., P (item set group 1) − P (item
+set group 2) versus P (item set group 1)/P (item
+set group 2)).
+
+
+
+Group difference 
+
+min_dif -- absolute difference
+min_ratio  -- relative difference
+
+find all the significant group differences
+
+
+Part 4
+Theorem 2. The support of a node is not greater than the support of its parent node.
+
+Compared to Han et al. (2004), we consider
+multiple groups and multiple users; thus, the calcula-
+tion of support incorporates users (Definition 1), and
+each group has its own tree. If there is only one group
+and one user, the tree built is the same as an FP
+tree.
+
+
+Conclusion:
+group difference detection
+more general definition and better method
+
+减小min_dif,增加min_ratio,最终取top-k
+
